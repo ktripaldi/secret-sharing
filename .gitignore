@@ -12,6 +12,17 @@ dist
 dist-ssr
 *.local
 
+# Runtime database + test artifacts
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+coverage
+playwright-report
+test-results
+blob-report
+.playwright
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
